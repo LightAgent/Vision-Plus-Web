@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <meta name='description' content='Visual representation of forum answers'>
+    <meta name='author' content='Youssef Sameh'>
+
+    <title>Your Answers</title>
+
+    <link rel='stylesheet' type='text/css' media='screen' href='../styles/data_visualization.css'>
+    <script src='https://cdn.jsdelivr.net/npm/chart.js'></script>
+</head>
+
+<body>
+    <article>
+        <div class='center'>
+            <h1>Statistical review</h1>
+        </div>
+        <ol>
+            <section>
+                <li>How did you hear about the event?</li>
+                <div class='chart center'>
+                    <canvas id='q1'></canvas>
+                </div>
+            </section>
+            
+            <br />
+            
+            <section>
+                <li>How satisfied were you with the event overall?</li>
+                <canvas id='q2' class='chart center'></canvas>
+            </section>
+            
+            <br />
+            
+            <section>
+                <li>Was the event well-organized and managed?</li>
+                <!-- Yes/no questions have shorter bars -->
+                <canvas id='q3' class='smallchart center''></canvas>
+            </section>
+
+            <br />
+
+            <section>
+                <li>Which aspect of the event did you enjoy the most</li>
+                <canvas id='q4' class='chart center'></canvas>
+            </section>
+
+            <br />
+
+            <section>
+                <li>Were there any aspects of the event that you found disappointing?</li>
+                <canvas id='q5' class='smallchart center'></canvas>
+            </section>
+
+            <br />
+
+            <section>
+                <li>How likely are you to attend a similar event in the future?</li>
+                <canvas id='q6' class='chart center'></canvas>
+            </section>
+
+            <br />
+
+            <section>
+                <li>Would you recommend this event to others?</li>
+                <canvas id='q7' class='chart center'></canvas>
+            </section>
+        </ol>
+        <script src='../scripts/data_visualization_funcs.js'></script>
+        <script src='../scripts/data_visualization_back.js'></script>
+    </article>
+</body>
+
+</html>

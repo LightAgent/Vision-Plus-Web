@@ -1,0 +1,14 @@
+.chart {
+    max-width: 600px;
+    max-height: 300px;
+}
+
+.smallchart {
+    max-width: 300px;
+    max-height: 300px;
+}
+
+.center {
+    align-self: center;
+    text-align: center;
+}
