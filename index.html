@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/navbar.css">
+  <title>Vision Plus</title>
+</head>
+<body>
+ <nav>
+   <div class="logo">Vision Plus</div>
+   <!-- toggle menu button -->
+   <span class="menubtn" onclick="openNav()">&#9776;</span>
+   
+ 
+   <div class="navLinks">
+     <ul>
+       <li><a href="index.html">Home</a></li>
+       <li><a href="pages/first_form.html">Events</a></li>
+       <li><a href="#">Login</a></li>
+      <li><a href="#">Dashboard</a></li> 
+     </ul>
+   </div>
+ </nav>
+   <!-- responsive side navbar -->
+   <div class="sideNav" id="sidenav">
+     <a href="#" class="closeBtn" onclick="closeNav()"> &#10006;</a>
+     <a href="../index.html">Home</a>
+      <a href="#">Events</a>
+      <a href="#">Login</a>
+      <a href="#">Dashboard</a> 
+   </div>
+   
+   <!-- Header content with banner image -->
+   <div class="row">
+     <div class="column1">
+      <br><br>
+       <h1>About Our Team</h1>
+       <br>
+       <p>Every year we have different specializations to focus on. Our objective is 
+        to create a final project at the end of the season that contains 
+        everything we trained and worked for.
+        </p>
+        <br>
+       <button>APPLY</button>
+     </div>
+     <div class="column2">
+       <img src= alt="banner" width="500px">
+     </div>
+   </div>
+   <script src="scripts/navbar.js"></script>
+</body>
+</html>
